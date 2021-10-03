@@ -1,0 +1,53 @@
+.downloadAppCard {
+  // position: relative;
+  margin-top: 79px;
+  margin-left: 56px;
+  width: 424px;
+  height: 657px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 12px rgba(47, 44, 59, 0.07);
+  border-radius: 12px;
+
+  &__close {
+    display: flex;
+    justify-content: flex-end;
+    padding: 24px 24px 0;
+    cursor: pointer;
+
+    // position: relative;
+    // top: 24px;
+    // right: 24px;
+  }
+
+  &__buttonSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 24px 53px 49px;
+    gap: 32px;
+
+
+    &-ios {
+      // font-family: Open Sans;
+      height: 58px;
+      font-weight: 600;
+      // font-size: 15px;
+      font-size: 14px;
+      line-height: 22px;
+      border: none;
+      background: #FFFFFF;
+      text-transform: uppercase;
+      color: #919399;
+      cursor: pointer;
+      padding: 0;
+      // color: #50B848;
+
+
+      border-bottom: 2px solid #E4E8ED;
+
+
+    }
+
+  }
+}

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 import './mobileArea.scss';
-import img from '../image/bss-bg.jpg';
+import img from '../image/X-1.png';
 import DownloadAppCard from '../downloadAppCard/downloadAppCard';
 
 const MobileArea = () => {

@@ -1,5 +1,5 @@
 .downloadAppCard {
-  // position: relative;
+  position: relative;
   margin-top: 79px;
   margin-left: 56px;
   width: 424px;
@@ -9,14 +9,11 @@
   border-radius: 12px;
 
   &__close {
-    display: flex;
-    justify-content: flex-end;
-    padding: 24px 24px 0;
     cursor: pointer;
 
-    // position: relative;
-    // top: 24px;
-    // right: 24px;
+    position: absolute;
+    top: 24px;
+    right: 24px;
   }
 
   &__buttonSection {
@@ -24,11 +21,11 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin: 24px 53px 49px;
+    padding: 63px 53px 0;
     gap: 32px;
 
 
-    &-ios {
+    &-btn {
       // font-family: Open Sans;
       height: 58px;
       font-weight: 600;
@@ -42,12 +39,20 @@
       cursor: pointer;
       padding: 0;
       // color: #50B848;
-
-
       border-bottom: 2px solid #E4E8ED;
-
-
     }
-
   }
+
+  &__qrCode {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 49px;
+  }
+}
+
+.btn-success {
+  color: #50B848;
+  border-bottom: 2px solid #50B848;
+
 }
